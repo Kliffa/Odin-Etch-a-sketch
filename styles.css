@@ -1,12 +1,12 @@
 .rowContainer{
     display:flex;
-    flex-wrap:wrap;
+    /* flex-wrap:wrap; */
 }
 .gridElement{
     /* background-color: white; */
     /* height: 10px;
     width: 10px; */
-      border: 1px solid black;  
+      /* border: 1px solid black;   */
 }
 
 .gridContainer{
@@ -14,4 +14,7 @@
     height:960px;
     width: 960px;
     margin: 20px 200px;
+    flex-wrap:wrap;
+    border: 1px solid black;
+
 }
