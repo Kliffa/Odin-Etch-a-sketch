@@ -20,3 +20,12 @@ for(let i=0;i!=gridSize;i++){
     }
 }
 
+// set up a "hover" effect to change div color when mouse passes over them.
+// do so by changing divs background color using js.
+// I will use onmouseenter event -> this does not bubble (opposed to onmouseover)
+const gridDivs = document.querySelectorAll(".gridElement");
+gridDivs.forEach((div)=>{
+    div.addEventListener("mouseover",()=>{ //I tried onmouesenter and onmouseover, but both did NOT work -> using mouseover now
+        div.style.backgroundColor="grey";
+    })
+})
